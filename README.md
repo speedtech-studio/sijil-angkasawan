@@ -1,15 +1,10 @@
-# Penjana Sijil Angkasa — WOW Edition
+# Penjana Sijil Angkasawan — Kepulangan ke Bumi
 
-Laman web statik siap untuk GitHub Pages. Semua imej sijil dan kesan bunyi dijana/dimasukkan dalam `index.html`; tiada backend diperlukan.
+Versi akhir misi: murid mengisi nama, menekan dan menahan pengimbas cap jari simulasi selama 3 saat, lalu menekan **PULANG KE BUMI**. Roket memasuki atmosfera, mendarat di Bumi dengan efek bunyi dan asap, kemudian sijil pencapaian muncul untuk disimpan sebagai PNG.
 
-## Terbitkan di GitHub Pages
-1. Cipta repository GitHub baharu (contoh: `penjana-sijil-angkasa`).
-2. Muat naik fail `index.html` ke root repository (boleh juga muat naik README ini).
-3. Pergi ke **Settings → Pages → Build and deployment**.
-4. Pilih **Deploy from a branch**, branch **main**, folder **/(root)**, kemudian **Save**.
-5. Tunggu GitHub Pages menerbitkan laman; buka URL yang dipaparkan pada halaman Pages.
+## GitHub Pages
+1. Muat naik `index.html` ke root repository GitHub.
+2. Settings → Pages → Deploy from a branch → `main` / `(root)` → Save.
+3. Selepas terbit, masukkan URL GitHub Pages ke Google Sites melalui Insert → Embed → By URL.
 
-## Embed di Google Sites
-Gunakan **Insert → Embed → By URL**, dan tampal URL GitHub Pages. Besarkan bingkai supaya paparan interaktif tidak terpotong. Sesetengah pelayar memerlukan interaksi pengguna untuk memainkan audio.
-
-Cap jari adalah simulasi tekan-dan-tahan, bukan pengumpulan data biometrik. Nama murid digunakan pada sijil dalam pelayar sahaja.
+Semua visual sijil dan bunyi sintesis terkandung dalam satu fail HTML; tiada fail tambahan diperlukan. Cap jari ialah animasi simulasi, bukan biometrik.
